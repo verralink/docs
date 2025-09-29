@@ -44,14 +44,6 @@
               "guild/guild-marketplace",
               "guild/discord-integration"
             ]
-          },
-          {
-            "group": "Reference",
-            "pages": [
-              "reference/patch-notes",
-              "reference/roadmap",
-              "reference/faq"
-            ]
           }
         ]
       }

@@ -35,14 +35,14 @@
             "group": "Guild",
             "pages": [
               "guild/overview",
-              "guild/activities",           
-              "guild/attendance",           
               "guild/guild-management",
-              "guild/guild-marketplace",
+              "guild/activities", 
               "guild/party-management",
               "guild/loadouts",
-              "guild/discord-integration",
-              "guild/commissions"
+              "guild/attendance", 
+              "guild/commissions",
+              "guild/guild-marketplace",
+              "guild/discord-integration"
             ]
           },
           {

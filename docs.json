@@ -3,10 +3,11 @@
   "theme": "mint",
   "name": "Verralink Documentation",
   "colors": {
-    "primary": "#FF6B00",
-    "light": "#FF944D",
-    "dark": "#D65A00"
-  },
+  "primary": "#FF6B00",
+  "light": "#FF944D",
+  "dark": "#121212"
+},
+
   "favicon": "/favicon.png",
   "navigation": {
     "tabs": [

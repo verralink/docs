@@ -36,11 +36,11 @@
             "pages": [
               "guild/overview",
               "guild/guild-management",
+              "guild/attendance",
+              "guild/commissions",
               "guild/activities", 
               "guild/party-management",
               "guild/loadouts",
-              "guild/attendance", 
-              "guild/commissions",
               "guild/guild-marketplace",
               "guild/discord-integration"
             ]

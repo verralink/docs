@@ -3,10 +3,10 @@
   "theme": "mint",
   "name": "Verralink Documentation",
   "colors": {
-  "primary": "#FF6B00",
-  "light": "#FF944D",
-  "dark": "#D65A00"
-},
+    "primary": "#FF6B00",
+    "light": "#FF944D",
+    "dark": "#D65A00"
+  },
   "favicon": "/favicon.png",
   "navigation": {
     "tabs": [
@@ -18,31 +18,38 @@
             "pages": [
               "index",
               "quickstart",
-              "development"
+              "plans"
             ]
           },
           {
-            "group": "Customization",
+            "group": "User",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "user/overview",
+              "user/character-profiles",
+              "user/artisan-marketplace",
+              "user/global-marketplace",
+              "user/attendance"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Guild",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "guild/overview",
+              "guild/activities",           
+              "guild/attendance",           
+              "guild/guild-management",
+              "guild/guild-marketplace",
+              "guild/party-management",
+              "guild/loadouts",
+              "guild/discord-integration"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Reference",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "reference/patch-notes",
+              "reference/roadmap",
+              "reference/faq"
             ]
           }
         ]
@@ -51,7 +58,7 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Change log",
+          "anchor": "Change Log",
           "href": "https://verralink.app/change-log",
           "icon": "book-open-cover"
         },
@@ -71,32 +78,28 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@verralink.app"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Open VerraLink",
+      "href": "https://verralink.app"
     }
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+    "socials": { }
   }
 }

@@ -51,13 +51,13 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "anchor": "Change log",
+          "href": "https://verralink.app/change-log",
           "icon": "book-open-cover"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "href": "https://verralink.app/verra-news",
           "icon": "newspaper"
         }
       ]

@@ -35,6 +35,7 @@
             "group": "Guild",
             "pages": [
               "guild/overview",
+              "guild/discovery",
               "guild/guild-management",
               "guild/attendance",
               "guild/commissions",

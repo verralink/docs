@@ -4,8 +4,8 @@
   "name": "Mint Starter Kit",
   "colors": {
   "primary": "#FF6B00",
-  "light": "#FF6B00",
-  "dark": "#D68C2F"
+  "light": "#FF944D",
+  "dark": "#D65A00"
 },
   "favicon": "/favicon.svg",
   "navigation": {

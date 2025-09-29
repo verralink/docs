@@ -41,7 +41,8 @@
               "guild/guild-marketplace",
               "guild/party-management",
               "guild/loadouts",
-              "guild/discord-integration"
+              "guild/discord-integration",
+              "guild/commissions"
             ]
           },
           {

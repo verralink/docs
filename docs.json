@@ -2,11 +2,11 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "Verralink Documentation",
-  "colors": {
-  "primary": "#FF6B00",
-  "light": "#FF944D",
-  "dark": "#121212"
-},
+ "colors": {
+    "primary": "#FF6B00",
+    "light": "#FF944D",
+    "dark": "#D65A00"
+  },
 
   "favicon": "/favicon.png",
   "navigation": {

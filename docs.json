@@ -25,7 +25,7 @@
             "pages": [
               "user/overview",
               "user/character-profiles",
-              "user/global-marketplace",
+              "user/public-marketplace",
               "user/discord-commands"
             ]
           },

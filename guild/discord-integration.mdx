@@ -1,0 +1,94 @@
+---
+title: Discord Integration
+description: Connect your guild to Discord for attendance, notifications, logs, and officer tools. Learn the slash commands and how to configure channels and roles for Commissions, Marketplace, and Activities.
+---
+
+## Overview
+VerraLink connects your guild to Discord so events, attendance, commissions, and marketplace activity stay visible where your community lives. Officers can post activity embeds, take attendance, receive application and transaction alerts, and view quick statistics through slash commands.  
+
+Discord integration is configured in **Guild Settings → Discord, Commissions, Marketplace, Activities**.  
+
+---
+
+## Core Command
+
+### `/attendance <ACTIVITY>`
+The primary guild command.  
+- Mirrors the members in your current voice channel and logs them for the selected activity  
+- Verifies each member is an active guild member on the website  
+- Sends a DM to valid members confirming attendance  
+- Sends an access code to the officer by DM for members who attended but were not in voice  
+- Exports an Excel file for records  
+
+---
+
+## Additional Commands
+
+- **`/templates`** – View guild activity templates created in **Guild Settings → Activities**  
+- **`/check`** – Verify which server members are recognized as guild members  
+- **`/statistics class`** – Show statistics for character classes in your guild  
+- **`/statistics primary_archetype`** – Show statistics for primary archetypes  
+- **`/statistics role`** – Show statistics for character roles  
+- **`/remind`** – Remind users to update their character image for OCR  
+- **`/ping`** – Simple connectivity test  
+
+---
+
+## Notification Settings
+
+You can map channels and roles so that all VerraLink activity is logged inside your Discord server. These are found in **Guild Settings → Discord**.  
+
+### General Settings
+- **Audit Log Channel**: Logs moderation and system events  
+- **Member Role**: Assigned to all guild members  
+- **Active Role**: Assigned to active guild members  
+- **Absent Role**: Assigned to absent guild members  
+
+### Announcements
+- **Announcement Channel**: Guild announcements will post here  
+- **Announcement Ping Role**: Role to ping when announcements are posted  
+
+### Tasks & Commissions
+- **Tasks Channel**: Channel for new commission notifications  
+- **Tasks Archive Channel**: Stores completed commissions  
+- **Task Submissions Channel**: Logs new submissions from members  
+- **Task Logs Channel**: Logs approvals and rejections by officers  
+- **Task Ping Role**: Role to ping when new commissions are created  
+- **Task Staff Ping Role**: Role to ping when commission actions occur  
+
+### Applications
+- **Applications Channel**: Logs new guild applications for review  
+
+### Activities
+- **Default Activity Text Channel**: Default text channel for event posts  
+- **Default Activity Voice Channel**: Default voice channel for activities  
+- **Default Activity Archive Channel**: Stores completed activities  
+- **Default Activity Required Role**: Role required to attend activities  
+- **Default Activity Ping Role**: Role pinged when new activities are created  
+
+### Storefronts / Marketplace
+- **Listings Channel**: Channel where new guild marketplace listings are posted  
+- **Listings Ping Role**: Role to ping when new listings are created  
+- **Transactions Channel**: Channel for guild transaction notifications  
+- **Transactions Ping Role**: Role to ping when a transaction starts  
+- **Transaction Logs Channel**: Detailed audit trail for all guild transactions  
+- **Transaction Logs Ping Role**: Role to ping for transaction log events  
+
+---
+
+## Permissions
+
+- Map an **Officer role** in **Guild Settings → Discord**  
+- Restrict sensitive commands like `/attendance` and commission approvals to officers  
+- Allow members to use informational commands like statistics  
+
+---
+
+## Tips
+
+- Keep one announcements channel for Activities to avoid confusion  
+- Use the access code from `/attendance` for members who attended but could not be in voice  
+- Encourage members to keep their character images updated for accurate OCR  
+- Review your audit and transaction logs regularly to ensure transparency  
+
+---

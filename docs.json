@@ -36,14 +36,14 @@
               "guild/overview",
               "guild/discovery",
               "guild/guild-management",
+              "guild/permissions",
               "guild/attendance",
               "guild/commissions",
               "guild/activities", 
               "guild/party-management",
               "guild/loadouts",
               "guild/guild-marketplace",
-              "guild/discord-integration",
-              "guild/permissions"
+              "guild/discord-integration"
             ]
           }
         ]

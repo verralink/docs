@@ -28,6 +28,7 @@
               "user/character-profiles",
               "user/artisan",
               "user/global-marketplace",
+              "user/global-buyers-bay",
               "user/discord-commands"
             ]
           },
@@ -38,12 +39,14 @@
               "guild/discovery",
               "guild/guild-management",
               "guild/permissions",
+              "guild/artisans",
               "guild/attendance",
               "guild/commissions",
               "guild/activities", 
               "guild/party-management",
               "guild/loadouts",
               "guild/guild-marketplace",
+              "guild/guild-buyers-bay",
               "guild/discord-integration"
             ]
           }

@@ -26,6 +26,7 @@
             "pages": [
               "user/overview",
               "user/character-profiles",
+              "user/artisan",
               "user/public-marketplace",
               "user/discord-commands"
             ]

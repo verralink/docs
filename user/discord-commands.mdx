@@ -30,6 +30,26 @@ Displays the character linked to the current guild server.
 Submit a leave of absence directly through Discord.  
 - Your guild officers will see the absence in their tools and attendance views
 
+### `/recipe`
+Query any recipe directly from Discord to view its full crafting information and which members in your guild have it learned.
+
+**How it works**
+- The command can be used in any Discord where the VerraLink bot is present and you are member of that guild 
+- Returns results as an embed in your current channel or via DM (depending on privacy settings)  
+- Autocomplete helps you quickly find recipes by name or profession  
+
+**Usage**
+- `/recipe name:<recipe name>` to view a specific recipe  
+- Optional filters: `profession`, `quality`  
+
+**Results**
+When executed, the bot will return an embed showing:
+- The **recipe name** and profession  
+- **Minimum Certification** needed to craft it  
+- **Level** of Artisan required 
+- A list of **guild members who have this recipe learned**, including their artisan mastery level  
+
+
 ### `/ap`
 Check your Activity Points instantly.  
 - Returns your current AP balance (DM or ephemeral response depending on server settings)

@@ -21,6 +21,12 @@
               "quickstart"
             ]
           },
+                    {
+            "group": "Video Series",
+            "pages": [
+              "videoseries/getting-started"
+            ]
+          },
           {
             "group": "User",
             "pages": [

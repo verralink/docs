@@ -15,14 +15,14 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Getting Started",
             "pages": [
               "index",
               "quickstart"
             ]
           },
                     {
-            "group": "Video-Series",
+            "group": "Video Series",
             "pages": [
               "videoseries/getting-started"
             ]

@@ -50,6 +50,7 @@
               "guild/artisans",
               "guild/attendance",
               "guild/commissions",
+              "guild/crafting-system",
               "guild/activities", 
               "guild/party-management",
               "guild/loadouts",
